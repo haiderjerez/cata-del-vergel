@@ -1,0 +1,80 @@
+.computer {
+    display: none;
+    text-align: center;
+    font-size: x-large;
+    background-image: url(imagenes/fondo-1.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 90vb;
+    height: 100vb;
+    color: white;   
+}
+body{
+    background-image: url(imagenes/fondo-3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    color:white;
+    text-align: center;
+}
+.movil {
+    display: block;
+}
+.cabezado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 10vh;
+    font-size: 250%;
+    justify-content:space-around;
+}
+.logo{
+    display: flex;
+    height: 10vh;
+    justify-content: start;
+}
+.cafeteros{
+    display: flex;
+    height: 10vh;
+}
+.compras{
+    margin: 20px;
+    width: 40vh;
+    height: 40vh;
+}
+.button{
+    text-align: center;
+}
+.buy-button{
+    background-color: #b0957f;
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.buy-button:hover{
+    background-color: #b0957f;
+    transform: scale(1.05);
+}
+.buy-button:active{
+    background-color: aquamarine;
+    transform: scale(0.95);
+}
+.img-umpala{
+    width: 30vh;
+}
+.img-cata{
+    width: 33vh;
+}
+@media screen and (min-width: 450px){
+    .computer{
+        display: block;
+    }
+    .movil{
+        display: none;
+    }
+}
