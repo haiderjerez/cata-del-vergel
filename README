@@ -1,5 +1,24 @@
+# Cata Del Vergel
 Es una paguina responsive que solo funciona para dispositivos movil la cual si se utiliza en otras resoluciones mostrara un mensaje de error y no se mostrara la pagina.
-El proyecto sige en desarrollo por que no tiene funcionavilidad por lo que es mera maquetacion.
+El proyecto sige en desarrollo por que no tiene funcionavilidad por lo que es solamente maquetacion, es una pagina de venta de pacas de cafe con marca propia en la cual prodras ver 
+diferentes y deversas opciones de cafe como utencilios para su preparacion dentro de cada marco hay otra pagina para ver la informacion mas afodo del producto elegido.
+
+### Requisitos
 Los requisitos son tener un dispositivo portatil o computador.
-La guia es si estas en un portatil o computar abras la paguina y utilizala en modo de expeccionar con el modo responsive, cuando ya estes en ese mondo se te mostrala la pagina como tal.
-Autor: Haider Steban Jerez Vergel
+Debes tener un dispositivo movil para poder ver la paguina ya que es responsive para solo dispositivos moviles.
+Puedes ver la pagina desde un computador o portil utilizando el inspecionar de tu navegardor de confianza.
+
+### Como se utiliza
+Deberas entrar en la desde un movil si no es el caso deberas dale clik derecho y inspeccionar , eligiendo opcion de responsive para verlo desde cualquier dispositivo luego se utiliza como cualquier pagina de compras.
+
+Hecho por [haider jerez](haiderjerez.16@gmail.com)
+-https://github.com/haiderjerez
+
+>[!IMPORTANT]
+>Esta paguina solo funciona en dispositivo movil
+
+>[!TIP]
+>si abres la pagina en un computar/portatil tendras que entrar en modo inspeccionar y estar en resposive se entre en el con clik derecho y inspecionar 
+
+>[!WARNING]
+>Si no tines dispotivo movil no funcionara la pagina
