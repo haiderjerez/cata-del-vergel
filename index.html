@@ -7,45 +7,49 @@
     <title>Cata Del Vergel</title>
 </head>
 <body>
-    <div class="movil">
-        <header class="cabezado">
-            <div class="logo">
-                <img src="imagenes/logo-probicional-removebg-preview.png" alt="">
+    <header class="cabezado">
+        <div class="logo">
+            <img src="imagenes/logo-probicional-removebg-preview.png" alt="logotipo">
+        </div>
+        <p>shop</p>
+        <div class="cafeteros">
+            <img src="imagenes/cafeteros-removebg-preview.png" alt="">
+        </div>
+    </header>
+    <nav class="sub-cabezado">
+        <div class="search-container">
+            <input type="text" id="search-input" class="search-input" placeholder="Buscar productos...">
+            <button class="search-button" onclick="searchProducts()">
+                <img class="search-icon" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAArZJREFUSEu1lV1Ik1EYx//PO1kpVlBgdRMVUV2YRkF0kUIJSV9uU+hDqAstTPcqVFQQ2J5p30Rh7p0tKqiQYFDbjKQrIaPEG5UgioQgDKEkk0TTub1PvabRyr0bqOf2nPP/PR/n/xzCLC+aZX3EBTT5XMv0qByA0E4A2eOBEDpJl+aIrjwsquJPyQT3H6D5Bs8PK/IAhIL4AiQA/JYUlOwp42EzUAzgiY/TohFpB5AJ0CggvihRXVEFfzBEHnl5pUXHcUCOgGAFqP1zSm9OWdmtsXiQGEDQy/chchBAj45ofqHz3NupLoa8nCWCZ78CWCqCaw7VfSIhIFhfvQ6K8hpAhBR9k628ttMs9ZCHc4XkOQRhElphq+Teqc7/ySCgueoJUAXwOJzuymQaGPS4GkEoJpIztoqai6aAoObqBrBKET2zQK19kwwgpJ3dKqAWgF7YnZybCDAEIK2rjyzMrCcD8N/mhdZR+QpBv111L0oA4O+AzEsdHkrPP3nVgCVcfo3TrZBBAfU5nJxhCgh5uUtEshWhjQUqdyRUB9Dk5c26SJsIWhyqO88coLkuC3AKwE27012eDCCoue4BOAShervKVaaAxx5erRDeARJN5pkGvdU5EKXVEDXLOsZoAc11h4ASgD7qgu2FKr+fKqqAxusJ40ZbDJDP7uSjCY1mHIgdFRgBqAEYu253nu8x9ieyNEZFKYCU36LURnOH822lVwZNSzS56fedXmCNpDYCssukDwMkckEn2k/ABgCdEqZtjmM88O+duOM60MDLKSrFRNghQBZAPwjogOCVRRnRdldc+mb4YE4YLcbrA9AVnkN5ew9z/9+QaX84E2Z7CWCtgLpFwZbCcv4yCZk2YLw3DZyh6GgFZA0JldpUvjujAEPsqcZLItD32Zw1dTNaokSGnJESmUFmHfATQBYYKP2uK7AAAAAASUVORK5CYII="/>
+            </button>
+        </div>
+        <div class="cart-container" id="carrito">
+            <a href="carrito.html">
+                <img class="carrito" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAa1JREFUSEvNlCGME2EQhd9rU8SRpplpciU15PThEJxCYRA4RA0EFAEMBoIiQV6CBIIghMOQEzgEBoEiIFCHwGAwJHReCSlJacVP9tK7FGh3l+yVMHYm75uZ9/9DLDm4ZH38O4C7p+k03wE8lHTtIKbbn2AGsKtL8lREvKwK+WNFZnaD5CbJ5xFx5sABzWaz3Wg0PgOoAzgq6VMVyFyTzewJyXMVhLcl9XZXPU/E3TcAvK4AeC/p2EJAlnD3HQDrJC9ExFYZmJltkTyfUro5GAw2cwFmdonkAwBvJZ0oAnQ6ncOTyaQP4NB4PD4yHA6/5AK63e7KaDTKilZqtdrxfr//Lg/i7hcBPALwQtLpvdrcn2xmd0leBfBYUiawMNz9FYCTAHqStksB3H0dwA7JHymlVUnf5hFardZavV7/COCrpFUAk1KAqdl7nV2XdGfBq7sN4FbmWURcnq0pPHZm1iP5tMjk6XnZiIg3fwUA0HD3DwDWCiDPJJ39vaZwgjKd59WUArTb7XsppSsk70dE9qr2Iy+X+w9mRWZPuaRfmsrLlQYsfYIqPpTy4L8G/AShFZ4ZdZGD7gAAAABJRU5ErkJggg=="/>
+            </a>
+        </div>
+    </nav>
+    <article>
+        <div class="box">
+            <div class="box1">
+                <a class="link" href="paca-mesaSantos.html">
+                    <img class="prod1" src="productos/pacas/paca-cafe-mesa-de-los-santos.png" >
+                    <h2 class="title2">Blend Variedades Clásicas y Nueva Generación x454 gr.</h2>
+                    <h2 class="title2">$45.000</h2>
+                    <div class="button-container">
+                        <button class="exotic-button">Comprar Ahora</button>
+                    </div>
+                </a>
             </div>
-            <p>shop</p>
-            <div class="cafeteros">
-                <img src="imagenes/cafeteros-removebg-preview.png" alt="">
-            </div>
-        </header>
-        <nav class="sub-cabezado">
-            <div class="navbar">
-                <ul class="nav-links" id="nav-links">
-                    <li><a href="index.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAf5JREFUSEu11UuojlEUBuDn5J5rJi4ppZAkwgDJiEIuEzHCQClSJigxFplSRBFyiYxQUpi5lELKNSkyklsmSviW9q+/z7e/fQzOqr/+c/ba6137Xe96/x59HD19XN//AAzD6vSZjgkYgW+4gEN4WG+4NwBDqiI7sBPDCy/ej93dOSWABbiEcS2FX+Aa7uAR4u9fnfw2gA0VDccxIFP8NjbhdTofg6mYgrt4Ev/PAazD+ZauT2AzJiWQNel758oZrM8BLMQt9M8A3MRi7Etz6deQ9zK95J8XxBCDw7GZ4t8rxUzDIpxseWEo648g6hQdTIrJ3b2ClRUtb5NMc3mfMLoOMBLvEHrPxZ5KUUfxoSDXx5hZB9iKw4WLwf1X3C/kHcGWOsCNNLy2uzGbJThdAFiK63WA4G1Uy8UY8GAcwK6WvDeYjB/dAAOrFY8CbXEKG9PWLmtJXIuLnfOOikoAP1NXg5KhRX5TXMWK7oNumb7PeM6Xau1jU2PB7mFupnhYxhx8zgHE4gQFnXiajO4YPlY+cy7tQFP9KDofz+qH3S8Ij5+H58moOp3Mqnwm+J+R6TxsYTleNZ3XN3loRUMMcHxyxlWFjT2b9B670RhNbroNYRkhyaYIrw+N760oe1BQXtauJ2I7ZiMoCrrC42PQl3thFX9xS79opQaL530O8BvFzFgZCSZ3ZQAAAABJRU5ErkJggg=="/></a></li>
-                    <li><a href="carrito.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUtJREFUSEvN1CEsRXEUx/HPmxGINtNMpgkkSRE0QWEkQ1GYZBNtIiaYoZigCYogGUEiKIpiI5hNMIH7t3u3t7f37v3zPHPKDf/f/3zPOb/zvyUNjlKD8/tTwEfazSu2Mf8b3ZV3kAGyvEM4rRdSbUSLWMUxRhoBaMcDmtCF+3ogtUzex3gdiQ8xFu7XAgzgvA7ADXrzAOHsGj2YxF4kLOgmsJT6mPsOprGFS/RHANrwhJbkXiceizpoTUXh24erAsgUdnCC4Uxb9JLXE8gcdhES5MUZBlNzg8lfUQQIHgQv3tCBlxqE7mT2d8nrf05177GAoMsqW8BaDcAKllPPZso1RR0EbdjngwiTgySs98V3Ac24TVY1jCEvjpJxjlYKYjqILL66LBawgdnEwM10q8qz5Z0VblGWqPxXXllU3lk0oOEd/NiHWA/+L+ATZAU1GbaBb8sAAAAASUVORK5CYII="/></a></li>
-                    <li><a href="index.html"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUlJREFUSEu91b8rxVEYx/HXLVkNDGYZZZAQGS3Kf8HGgklKKWWgJCaDv8JiNPiZRZmUXSizEvd7O7eu7z333vP9+nHqLE/P87yfz3mec07FH6/KH+dXFPAZCkqOS3YMiX8dkBUwh1nMYCCAHnGKk7Dr4KYTb6dgGMcY6dCnayzgLubXCjCIe3QnDsE7hvCQ948BMtslxhKT192uMJECmMZZweR190lcNMbGFGxhrSRgExudALcJjW3Fzxo+3glQsvh4WOMRtZzlksRa7n8FlCy0fVh+irpwhHl8FCRGY/OAFexgCQcFAdHYPOAGozjHVADEKovZYrFN/8ELevGE/gBYxi4WcdjG9oaeqvrXqvq+uvq8glVkext7wSl7l7LL06gqZlsPR7uP7DWorZQP5zlU1KgqZou2LAUQUxWzlQYUHKbv7ikKfgT4AqAePxkFwe3iAAAAAElFTkSuQmCC"/></a></li>
-                </ul>
-            </div>
-            <div class="buscador">
-                <input type="text" placeholder="buscar..." class="buscador-input">
-                <button class="bucar-boton">
-                    <img class="lupa" src="imagenes/lupa-removebg-preview.png">
-                </button>
-            </div>
-        </nav>
-        <article>
-            <div class="box">
-                <div class="box1">
-                    <a class="link" href="paca-mesaSantos.html">
-                        <img class="prod1" src="productos/pacas/paca-cafe-mesa-de-los-santos.png" >
-                        <h2 class="title2">Blend Variedades Clásicas y Nueva Generación x454 gr.</h2>
-                        <h2 class="title2">$45.000</h2>
-                        <div class="button-container">
-                            <button class="exotic-button">Comprar Ahora</button>
-                        </div>
-                    </a>
+            <div class="box-plus">
+                <div class="button-container">
+                    <button class="plus-button" onclick="addToCart()">
+                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAg9JREFUSEu1lc9LFGEYx7+PLGuCGOElirBTB6GkP0CwQ1B26B072CVPkjWvSSF0qpl3ds8F5exCeQjqIOyhnYVUECIi6NTBW0giXhIlhEQo+uH7xGzutjO7s78a39vMPM/387zf532fIRzwogPWR13AwuNbnT8TvVcAXADzAICTAJiI1rXGMpFe3EpsvpyYePorqtBIQD5rXSSm7L5ovY2uMvMNYzL1ulZQTUA+oxSB7Rbs0wy+a8jUg3BOFcBzbQcEqwXxciiBb1+WqUeVuQFAIWtdYqZX7Yjv52iABoVU70saZUAuo7qT4E8AjkYBhHSK8V7G5ugiaGUrsXG61PgyIO9aN4mKTY1czQGKx8wwTOX5QmWAl7HnAQzHAQBoVkh1PQz4DOBYPAAsC+mcDQO+AeiqBJQsadT0Gj35KqRzJAzYBdAdD4B2hVQ9YcAKgFMxWfRRSKc/CMjac2BcjQVA9EKYaiwAyLvWNSJ6HgeAGaPGpJMLAHIP73QlO3t8m07870VL7m0PDE/N/AgA/IeCa51noqVGp6bOdw3SQ8JMv6saFaUXBVfdY+J0OxAmnjLM1ExlbsS4tu4TOhz/0jcHoj2Cng5P0iqLKsX+TtaOJwAfbwBZ1aTHR8z021pxdSt880wd2vmOEXBxRp0BuM//ZQJYA+gDgKXDX+CdU+p3VBFNWtCcUS3voH3Zf5l/AH++yRmdcEVCAAAAAElFTkSuQmCC"/>
+                    </button>
                 </div>
-            </div>  
-        </article>
-    </div>
+            </div>
+        </div>  
+    </article>
+    <script src="script.js"></script>
 </body>
 </html>
