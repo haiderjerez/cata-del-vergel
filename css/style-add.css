@@ -1,0 +1,44 @@
+:root {
+    --main-bg-color: #b0957f;
+    --text-color: white;
+    --header-bg-color: white;
+    --header-text-color: black;
+    --button-hover-scale: 1.05;
+    --button-active-scale: 0.95;
+    --button-active-bg-color: aquamarine;
+}
+body {
+    font-family: merdana;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url('../imagenes/fondo-carrito.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center ; 
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+.cabezado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 12vh;
+    font-size: 60px;
+    justify-content:space-around;
+    color:black
+
+}
+.logo{
+    display: flex;
+    width: 12vh;
+    height: 12vh;
+    justify-content: start;
+}
+.cafeteros{
+    display: flex;
+    height: 12vh;
+}

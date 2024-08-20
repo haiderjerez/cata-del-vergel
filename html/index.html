@@ -3,17 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>Cata Del Vergel</title>
 </head>
 <body>
     <header class="cabezado">
         <div class="logo">
-            <img src="imagenes/logo-probicional-removebg-preview.png" alt="logotipo">
+            <img src="../imagenes/logo-probicional-removebg-preview.png" alt="logotipo">
         </div>
         <p>shop</p>
         <div class="cafeteros">
-            <img src="imagenes/cafeteros-removebg-preview.png" alt="">
+            <img src="../imagenes/cafeteros-removebg-preview.png" alt="">
         </div>
     </header>
     <nav class="sub-cabezado">
@@ -24,7 +24,7 @@
             </button>
         </div>
         <div class="cart-container" id="carrito">
-            <a href="carrito.html">
+            <a href="./carrito.html">
                 <img class="carrito" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAa1JREFUSEvNlCGME2EQhd9rU8SRpplpciU15PThEJxCYRA4RA0EFAEMBoIiQV6CBIIghMOQEzgEBoEiIFCHwGAwJHReCSlJacVP9tK7FGh3l+yVMHYm75uZ9/9DLDm4ZH38O4C7p+k03wE8lHTtIKbbn2AGsKtL8lREvKwK+WNFZnaD5CbJ5xFx5sABzWaz3Wg0PgOoAzgq6VMVyFyTzewJyXMVhLcl9XZXPU/E3TcAvK4AeC/p2EJAlnD3HQDrJC9ExFYZmJltkTyfUro5GAw2cwFmdonkAwBvJZ0oAnQ6ncOTyaQP4NB4PD4yHA6/5AK63e7KaDTKilZqtdrxfr//Lg/i7hcBPALwQtLpvdrcn2xmd0leBfBYUiawMNz9FYCTAHqStksB3H0dwA7JHymlVUnf5hFardZavV7/COCrpFUAk1KAqdl7nV2XdGfBq7sN4FbmWURcnq0pPHZm1iP5tMjk6XnZiIg3fwUA0HD3DwDWCiDPJJ39vaZwgjKd59WUArTb7XsppSsk70dE9qr2Iy+X+w9mRWZPuaRfmsrLlQYsfYIqPpTy4L8G/AShFZ4ZdZGD7gAAAABJRU5ErkJggg=="/>
             </a>
         </div>
@@ -32,8 +32,8 @@
     <article>
         <div class="box">
             <div class="box1">
-                <a class="link" href="paca-mesaSantos.html">
-                    <img class="prod1" src="productos/pacas/paca-cafe-mesa-de-los-santos.png" >
+                <a class="link" href="./paca-mesaSantos.html">
+                    <img class="prod1" src="../productos/pacas/paca-cafe-mesa-de-los-santos.png" >
                     <h2 class="title2">Blend Variedades Clásicas y Nueva Generación x454 gr.</h2>
                     <h2 class="title2">$45.000</h2>
                     <div class="button-container">
@@ -43,13 +43,15 @@
             </div>
             <div class="box-plus">
                 <div class="button-container">
-                    <button class="plus-button" onclick="addToCart()">
-                        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAg9JREFUSEu1lc9LFGEYx7+PLGuCGOElirBTB6GkP0CwQ1B26B072CVPkjWvSSF0qpl3ds8F5exCeQjqIOyhnYVUECIi6NTBW0giXhIlhEQo+uH7xGzutjO7s78a39vMPM/387zf532fIRzwogPWR13AwuNbnT8TvVcAXADzAICTAJiI1rXGMpFe3EpsvpyYePorqtBIQD5rXSSm7L5ovY2uMvMNYzL1ulZQTUA+oxSB7Rbs0wy+a8jUg3BOFcBzbQcEqwXxciiBb1+WqUeVuQFAIWtdYqZX7Yjv52iABoVU70saZUAuo7qT4E8AjkYBhHSK8V7G5ugiaGUrsXG61PgyIO9aN4mKTY1czQGKx8wwTOX5QmWAl7HnAQzHAQBoVkh1PQz4DOBYPAAsC+mcDQO+AeiqBJQsadT0Gj35KqRzJAzYBdAdD4B2hVQ9YcAKgFMxWfRRSKc/CMjac2BcjQVA9EKYaiwAyLvWNSJ6HgeAGaPGpJMLAHIP73QlO3t8m07870VL7m0PDE/N/AgA/IeCa51noqVGp6bOdw3SQ8JMv6saFaUXBVfdY+J0OxAmnjLM1ExlbsS4tu4TOhz/0jcHoj2Cng5P0iqLKsX+TtaOJwAfbwBZ1aTHR8z021pxdSt880wd2vmOEXBxRp0BuM//ZQJYA+gDgKXDX+CdU+p3VBFNWtCcUS3voH3Zf5l/AH++yRmdcEVCAAAAAElFTkSuQmCC"/>
+                    <button class="plus-button">
+                        <a href="./add.html">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAg9JREFUSEu1lc9LFGEYx7+PLGuCGOElirBTB6GkP0CwQ1B26B072CVPkjWvSSF0qpl3ds8F5exCeQjqIOyhnYVUECIi6NTBW0giXhIlhEQo+uH7xGzutjO7s78a39vMPM/387zf532fIRzwogPWR13AwuNbnT8TvVcAXADzAICTAJiI1rXGMpFe3EpsvpyYePorqtBIQD5rXSSm7L5ovY2uMvMNYzL1ulZQTUA+oxSB7Rbs0wy+a8jUg3BOFcBzbQcEqwXxciiBb1+WqUeVuQFAIWtdYqZX7Yjv52iABoVU70saZUAuo7qT4E8AjkYBhHSK8V7G5ugiaGUrsXG61PgyIO9aN4mKTY1czQGKx8wwTOX5QmWAl7HnAQzHAQBoVkh1PQz4DOBYPAAsC+mcDQO+AeiqBJQsadT0Gj35KqRzJAzYBdAdD4B2hVQ9YcAKgFMxWfRRSKc/CMjac2BcjQVA9EKYaiwAyLvWNSJ6HgeAGaPGpJMLAHIP73QlO3t8m07870VL7m0PDE/N/AgA/IeCa51noqVGp6bOdw3SQ8JMv6saFaUXBVfdY+J0OxAmnjLM1ExlbsS4tu4TOhz/0jcHoj2Cng5P0iqLKsX+TtaOJwAfbwBZ1aTHR8z021pxdSt880wd2vmOEXBxRp0BuM//ZQJYA+gDgKXDX+CdU+p3VBFNWtCcUS3voH3Zf5l/AH++yRmdcEVCAAAAAElFTkSuQmCC"/>
+                        </a>
                     </button>
                 </div>
             </div>
         </div>  
     </article>
-    <script src="script.js"></script>
+    <script src="../script.js"></script>
 </body>
 </html>
