@@ -1,10 +1,8 @@
 [
     {
         "nombre": "Blend Variedades Clásicas y Nueva Generación x454 gr.",
-        "precio": 45900,
-        "cantidad": 1,
-        "imagen": "productos/pacas/paca-cafe-mesa-de-los-santos.png",
         "descripcion": "Nuestro Blend está compuesto de los mejores varietales de café, entre ellos están los clásicos y los de nueva generación diseñados y tostados para los clientes exigentes que buscan un café de notas dulces intensas y de acidez baja. Desarrollamos curvas de tueste especiales que resaltan las características de cada una de las variedades.",
-        "grano": "molido"
+        "precio": 45900,
+        "imagen": "productos/pacas/paca-cafe-mesa-de-los-santos.png"
     }
 ]

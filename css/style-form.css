@@ -1,0 +1,145 @@
+/* Estilos existentes de Cata del Vergel */
+:root {
+    --main-bg-color: #b0957f;
+    --text-color: white;
+    --header-bg-color: white;
+    --header-text-color: black;
+    --button-hover-scale: 1.05;
+    --button-active-scale: 0.95;
+    --button-active-bg-color: aquamarine;
+}
+
+body {
+    font-family: merdana;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(imagenes/fondo-3.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    font-size: 25px;
+}
+
+.cabezado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--header-bg-color);
+    height: 12vh;
+    font-size: 300%;
+    justify-content: space-around;
+    color: var(--header-text-color);
+}
+
+.logo {
+    width: 12vh;
+    height: 12vh;
+}
+
+.cafeteros {
+    height: 12vh;
+}
+
+.title {
+    padding: 5px 10px;
+    text-align: center;
+    margin: 0 0 2px;
+    font-size: 27px;
+    color: var(--header-text-color);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    max-width: 800px;
+    width: 90%;
+}
+
+.product-form {
+    width: 100%;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+    width: 100%;
+}
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: var(--header-text-color);
+}
+
+input[type="text"],
+input[type="number"],
+input[type="file"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.product-list {
+    margin-top: 30px;
+    text-align: left;
+    width: 100%;
+}
+
+.product-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: black;
+}
+
+.product-item img {
+    max-width: 100px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.product-item h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.product-item p {
+    margin: 5px 0;
+}
+
+/* Estilos existentes para los botones */
+.buy-button {
+    background-color: var(--main-bg-color);
+    color: var(--text-color);
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.buy-button:hover {
+    transform: scale(var(--button-hover-scale));
+}
+
+.buy-button:active {
+    background-color: var(--button-active-bg-color);
+    transform: scale(var(--button-active-scale));
+}

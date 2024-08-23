@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/style-form.css">
+    <title>Form Add</title>
+</head>
+<body>
+    <header class="cabezado">
+        <img src="../imagenes/logo-probicional-removebg-preview.png" alt="Logo" class="logo">
+        <h1 class="title">Form Add</h1>
+        <img src="../imagenes/cafeteros-removebg-preview.png" alt="Cafeteros" class="cafeteros">
+    </header>
+
+    <main>
+        <section class="content">
+            <form id="productForm" class="product-form">
+                <div class="form-group">
+                    <label for="productName">Nombre del Producto</label>
+                    <input type="text" id="productName" name="productName" required>
+                </div>
+                <div class="form-group">
+                    <label for="productDescription">Descripción</label>
+                    <textarea id="productDescription" name="productDescription" rows="4" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="productPrice">Precio</label>
+                    <input type="number" id="productPrice" name="productPrice" step="0.01" required>
+                </div>
+                <div class="form-group">
+                    <label for="productImage">Imagen del Producto</label>
+                    <input type="file" id="productImage" name="productImage" accept="image/*" required>
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="buy-button">Agregar Producto</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="content">
+            <h2>Productos Agregados</h2>
+            <div id="productList" class="product-list">
+            </div>
+        </section>
+    </main>
+
+    <script src="../js/form.js"></script>
+</body>
+</html>
